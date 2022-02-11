@@ -16,14 +16,14 @@ function ChartSection() {
                         <div className="stats">
                             <div className="stats-money">
                                 <ChartStats name={'Balance'} amount={'$250'} />
-                                <ChartStats name={'Last Transaction'} amount={'$1,000'} />
+                                <ChartStats name={'Donated'} amount={'$1,000'} />
                             </div>
                             <img src={chart} alt="" />
                         </div>
                     </div>
                     <div className="chart-right">
                         <h2 className="secondary-heading">
-                            Manage your finances like a pro in no time 
+                            Track every transactions in any donation campaign
                         </h2>
                         <Roll right>
                         <p>

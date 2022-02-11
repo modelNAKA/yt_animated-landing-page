@@ -13,12 +13,12 @@ function HeaderContent() {
             <Fade left cascade>
             <div className="left-content">
                 <div className="left-text-container">
-                    <h1>Smart banking for freelancers</h1>
+                    <h1>Blockchain based donation platform</h1>
                     <p className="white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit molestiae minus dicta ipsum atque est qui vel illo magni voluptates esse, e
                         x commodi corporis quos odio libero temporibus, eveniet nisi.
                     </p>
-                    <Secondarybutton name={'Register Now'}/>
+                    <Secondarybutton name={'Donate Now'}/>
                 </div>
             </div>
             </Fade>

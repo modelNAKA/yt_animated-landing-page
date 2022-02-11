@@ -9,6 +9,7 @@ import FAQSection from "./Components/FAQSection";
 import questions from "./questions";
 import Footer from "./Components/Footer";
 import { Fade } from "react-reveal";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
 
 function App() {
@@ -23,21 +24,8 @@ function App() {
             <Fade right>
               <ChartSection />
             </Fade>
-            <Fade left>
-              <MessagingSection />
-            </Fade>
-            <Fade right>
-              <PaymentSection />
-            </Fade>
-            <Fade left>
-              <FAQSection />
-            </Fade>
-           
           </MainStyled>
         </OuterLayout>
-        <Fade bottom>
-          <Footer />
-        </Fade>
     </div>
   );
 }

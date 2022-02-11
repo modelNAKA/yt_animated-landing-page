@@ -3,6 +3,10 @@ import styled from 'styled-components';
 import PrimaryButton from './PrimaryButton';
 import logo from '../img/logo.svg';
 import { Fade } from 'react-reveal';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Register from "./login/register";
+import Login from "./login/login";
+
 
 function Navigation() {
     return (
@@ -13,16 +17,22 @@ function Navigation() {
             </div>
             <ul>
                 <li>
-                    <a href="">Home</a>
+                    <a href="">About</a>
                 </li>
                 <li>
-                    <a href="">Features</a>
+                    <a href="">Donate</a>
                 </li>
                 <li>
-                    <a href="">Pricing</a>
+                    <a href="">Contact Us</a>
                 </li>
             </ul>
-            <PrimaryButton name={'Sign Up'} />
+            <Router>
+                <Routes>
+                    <Route path="/Login" element={< Login />} />
+                    <Route path="/Register" element={<Register />} />
+                </Routes>
+            </Router>
+            <PrimaryButton name={'Login'} />
         </NavigationStyled>
         </Fade>
     )

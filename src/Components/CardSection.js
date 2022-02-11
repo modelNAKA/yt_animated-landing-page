@@ -10,7 +10,7 @@ function CardSection() {
                 <div className="card-container">
                     <div className="card-left">
                         <h2 className="secondary-heading">
-                            One card for all your payments
+                            Works with every currencies
                         </h2>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt reprehenderit doloremque quia? Odit illo, tempore quod vero exercitationem, 
